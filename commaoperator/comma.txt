@@ -1,0 +1,11 @@
+The comma operator in JavaScript evaluates each of its operands from left to right and returns the value of the rightmost operand. It is often used to include multiple expressions in a single statement.
+
+
+egample
+let a = 1, b = 2, c = 3;
+
+// The comma operator allows multiple expressions in a single statement
+let result = (a++, b++, c++);
+
+console.log(result);  // Outputs: 3 (the value of the rightmost operand)
+console.log(a, b, c); // Outputs: 2 3 4 (each variable has been incremented)
